@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Responsive Text Blocks</title>
+      <style>
+            body {
+                  font-family: Arial, sans-serif;
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+            }
+
+            header {
+                  background-color: #4CAF50;
+                  color: white;
+                  text-align: center;
+                  padding: 1em 0;
+            }
+
+            main {
+                  display: grid;
+                  gap: 1em;
+                  padding: 1em;
+            }
+
+            .text-block {
+                  border: 1px solid #ddd;
+                  padding: 1em;
+                  background-color: #f4f4f4;
+            }
+            @media(min-width:540px) and (max-width:767px){
+              .text-block{
+                  background-color: lightcoral;
+                  color: darkred;
+              } 
+            }
+              @media(min-width: 768px) and (max-width: 1023px){
+                  .text-block{
+                        background-color: lightblue;
+                         color: red;
+
+                  }
+              }   
+            
+      </style>
+</head>
+
+<body>
+      <header>
+            <h1>My Text Blocks</h1>
+      </header>
+      <main>
+            <div class="text-block">
+                  <h2>Block 1</h2>
+                  <p>This is some placeholder text for block 1.</p>
+            </div>
+            <div class="text-block">
+                  <h2>Block 2</h2>
+                  <p>This is some placeholder text for block 2.</p>
+            </div>
+            <div class="text-block">
+                  <h2>Block 3</h2>
+                  <p>This is some placeholder text for block 3.</p>
+            </div>
+            <div class="text-block">
+                  <h2>Block 4</h2>
+                  <p>This is some placeholder text for block 4.</p>
+            </div>
+      </main>
+</body>
+
+</html>

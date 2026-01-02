@@ -1,0 +1,39 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+
+body{
+      background-color: #FFEAD3;
+      font-family: "Atkinson Hyperlegible Mono", sans-serif;
+      color: #DC7576;
+      
+}
+
+#home{
+      font-size: 20px;
+}
+#contact{
+      font-size: 20px;
+}
+
+#subject{
+      font-size: 20px;
+}
+#btn{
+      height: 50px;
+      width: 100px;
+      border-radius: 10px;
+      margin: 50px;
+}
+
+
+nav ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.25rem;
+}

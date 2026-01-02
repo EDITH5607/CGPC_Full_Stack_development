@@ -1,0 +1,36 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+header {
+      background-color: #40916c;
+      
+}
+nav ul li{
+      padding: 2rem;
+      border-radius: 1.2rem;
+      background-color: #2d6a4f;
+      ;
+}
+nav ul{
+      height: 4rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 3rem ;
+      list-style: none;
+}
+
+header h3{
+95d5b2
+
+}
+main{
+      background-color: #95d5b2;
+}
+footer{
+      background-color: #FFE4EF;
+}
