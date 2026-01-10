@@ -2,12 +2,14 @@ import axios from "axios";
 import React,{useEffect,useState} from "react";
 const Products = ()=>{
       const baseUrl = import.meta.env.VITE_BACKEND_API
+      const [data,setData] = useState([])
+      const [error,setError] = useState()
       console.log(baseUrl)
       useEffect(()=>{
             const fetchData = async()=>{
                   try{
                         const response = await axios.get(`${baseUrl}/products`)
-                        console.log(response.data)
+                        setData(response?.data?.data)
                   }
                   catch (error){
                         console.log(error)

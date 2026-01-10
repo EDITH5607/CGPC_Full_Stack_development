@@ -9,12 +9,7 @@ require('dotenv').config();
 
 app.use(cors());
 
-// OPTION B: Secure (Recommended)
-app.use(cors({
-  origin: 'http://localhost:5173', // Allow only your React app
-  methods: ['GET', 'POST'],        // Allow only specific methods
-  credentials: true                // Allow cookies if needed
-}));
+
 
 app.use(express.json())
 app.get('/',(req,res)=>{
